@@ -17,3 +17,16 @@
         {{ end }}
     </ul>
 </footer>
+
+<!-- Redirects user to amdin page after logging in -->
+<script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
