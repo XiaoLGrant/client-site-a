@@ -6,48 +6,88 @@ media_folder: "themes/hugo-html5up-alpha-main/static/images"
 
 
 collections:
-  - name: "homepage"
-    label: "Home"
-    folder: "data"
+  - name: "pages"
+    label: "Pages"
     files:
       - file: "data/homepage.yml"
-        name: "homepage"
-        label: "Home"
+        label: "Home Page"
+        name: "home"
         fields:
-          - {label: "Title", name: "title", widge: "string"}
-  - name: "about"
-    label: "About"
-    folder: "content"
-    files:
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Section",
+              name: "section",
+              widget: "object",
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Text", name: "text", widget: "text" },
+                ],
+            }
       - file: "content/about.md"
-        name: "about"
         label: "About"
+        name: "about"
         fields:
           - { label: "Title", name: "title", widget: "string"}
           - { label: "Description", name: "description", widget: "String"}
           - { label: "Body", name: "body", widge: "markdown"}
-  - name: "services"
-    label: "Services"
-    folder: "content"
-    files: 
       - file: "content/services.md"
-        name: "services"
         label: "Services"
+        name: "services"
         fields:
           - { label: "Title", name: "title", widget: "string"}
           - { label: "Description", name: "description", widget: "String"}
           - { label: "Body", name: "body", widge: "markdown"}
-  - name: "contact"
-    label: "Contact"
-    folder: "content"
-    files:
       - file: "content/contact.md"
-        name: "contact"
         label: "Contact"
+        name: "contact"
         fields:
           - { label: "Title", name: "title", widget: "string"}
           - { label: "Description", name: "description", widget: "String"}
           - { label: "Body", name: "body", widge: "markdown"}
+
+  # - name: "homepage"
+  #   label: "Home"
+  #   folder: "data"
+  #   files:
+  #     - file: "data/homepage.yml"
+  #       name: "homepage"
+  #       label: "Home"
+  #       fields:
+  #         - {label: "Title", name: "title", widge: "string"}
+  # - name: "about"
+  #   label: "About"
+  #   folder: "content"
+  #   files:
+  #     - file: "content/about.md"
+  #       name: "about"
+  #       label: "About"
+  #       fields:
+  #         - { label: "Title", name: "title", widget: "string"}
+  #         - { label: "Description", name: "description", widget: "String"}
+  #         - { label: "Body", name: "body", widge: "markdown"}
+  # - name: "services"
+  #   label: "Services"
+  #   folder: "content"
+  #   files: 
+  #     - file: "content/services.md"
+  #       name: "services"
+  #       label: "Services"
+  #       fields:
+  #         - { label: "Title", name: "title", widget: "string"}
+  #         - { label: "Description", name: "description", widget: "String"}
+  #         - { label: "Body", name: "body", widge: "markdown"}
+  # - name: "contact"
+  #   label: "Contact"
+  #   folder: "content"
+  #   files:
+  #     - file: "content/contact.md"
+  #       name: "contact"
+  #       label: "Contact"
+  #       fields:
+  #         - { label: "Title", name: "title", widget: "string"}
+  #         - { label: "Description", name: "description", widget: "String"}
+  #         - { label: "Body", name: "body", widge: "markdown"}
 
 
 
