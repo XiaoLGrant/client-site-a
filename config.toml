@@ -1,10 +1,10 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://effortless-frangipane-aeeddd.netlify.app/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Client Site'
 theme = 'hugo-html5up-alpha-main'
 
 [params]
-  description = "Portfolio site for editor lauren leshley"
+  description = "Business site for client"
   images = ["images/pic01.jpg"]
   author = "Hugo Port: [Nelson/Roberto](https://nelsonroberto.com/)"
   copyright = "© Xiao Grant. All rights reserved."
