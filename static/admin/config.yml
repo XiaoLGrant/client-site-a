@@ -13,12 +13,16 @@ collections:
     folder: "data"
     files:
       - file: "data/homepage.yml"
-      - {label: "Title", name: "title", widge: "string"}
+        name: "homepage"
+        lable: "Home"
+        {label: "Title", name: "title", widge: "string"}
   - name: "about"
     label: "About"
     folder: "content"
     files:
       - file: "content/about.md"
+        name: "about"
+        label: "About"
         fields:
           - { label: "Title", name: "title", widget: "string"}
           - { label: "Description", name: "description", widget: "String"}
@@ -28,6 +32,8 @@ collections:
     folder: "content"
     files: 
       - file: "content/services.md"
+        name: "services"
+        label: "Services"
         fields:
           - { label: "Title", name: "title", widget: "string"}
           - { label: "Description", name: "description", widget: "String"}
@@ -37,6 +43,8 @@ collections:
     folder: "content"
     files:
       - file: "content/contact.md"
+        name: "contact"
+        label: "Contact"
         fields:
           - { label: "Title", name: "title", widget: "string"}
           - { label: "Description", name: "description", widget: "String"}
