@@ -1,0 +1,56 @@
+### Banner ###
+banner:
+  enable: true
+  image: #default is 'images/banner.jpg'
+  title: "Lauren Leshley"
+  content: "will edit you out of existance" # Change this if you want something other then the site description
+  buttons:
+    - title: "My Services"
+      link: "/services/"
+      class: "primary"
+    - title: "Contact Me"
+      link: "/contact/"
+
+### Highlight ###
+highlight:
+  enable: true
+  header: "Lorem ipsum"
+  content: "Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare<br /> adipiscing nunc adipiscing. Condimentum turpis massa."
+  image: "images/pic01.jpg"
+
+### Features ###
+features:
+  enable: false
+  rows:
+    - items:
+      - title: "Magna etiam"
+        icon: "fa-bolt"
+        accent: "accent2" #accent values are 1-8
+        content: "Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros."
+      - title: "Ipsum dolor"
+        icon: "fa-chart-area"
+        accent: "accent3" #accent values are 1-8
+        content: "Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros."
+    - items:
+        - title: "Sed feugiat"
+          icon: "fa-cloud"
+          accent: "accent4" #accent values are 1-8
+          content: "Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros."
+        - title: "Enim phasellus"
+          icon: "fa-lock"
+          accent: "accent5" #accent values are 1-8
+          content: "Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros."
+
+### Blog ###
+blog:
+  enable: false
+  # Leave header text blank to remove entire <section>
+  header: "Recent Posts"
+  buttonText: "Read More"
+  postCount: 2
+
+### Call to Action ###
+cta:
+  enable: true
+  header: "Need an editor?"
+  content: "Connect with me."
