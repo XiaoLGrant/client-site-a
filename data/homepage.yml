@@ -1,10 +1,8 @@
 banner:
   enable: true
-<<<<<<< HEAD
   image: images/banner.jpg #default is 'images/banner.jpg'
   title: "this person"
   content: "will edit you out of existance" # Change this if you want something other then the site description
-=======
   buttons:
     - title: My Services
       link: /services/
