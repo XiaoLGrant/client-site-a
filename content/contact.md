@@ -7,4 +7,4 @@ title: Contact
 ---
 Coming soon!
 
-{{< form-contact >}}
+<!-- {{< form-contact >}} -->
