@@ -10,28 +10,37 @@ media_library:
 collections:
   - name: "homepage"
     label: "Home"
-    folder: "data/homepage.yml"
+    folder: "data"
+    files:
+      - file: "data/homepage.yml"
+      - {label: "Title", name: "title", widge: "string"}
   - name: "about"
     label: "About"
-    file: "content/about.md"
-    fields:
-      - { label: "Title", name: "title", widget: "string"}
-      - { label: "Description", name: "description", widget: "String"}
-      - { label: "Body", name: "body", widge: "markdown"}
+    folder: "content"
+    files:
+      - file: "content/about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Description", name: "description", widget: "String"}
+          - { label: "Body", name: "body", widge: "markdown"}
   - name: "services"
     label: "Services"
-    file: "content/services.md"
-    fields:
-      - { label: "Title", name: "title", widget: "string"}
-      - { label: "Description", name: "description", widget: "String"}
-      - { label: "Body", name: "body", widge: "markdown"}
+    folder: "content"
+    files: 
+      - file: "content/services.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Description", name: "description", widget: "String"}
+          - { label: "Body", name: "body", widge: "markdown"}
   - name: "contact"
     label: "Contact"
-    file: "content/contact.md"
-    fields:
-      - { label: "Title", name: "title", widget: "string"}
-      - { label: "Description", name: "description", widget: "String"}
-      - { label: "Body", name: "body", widge: "markdown"}
+    folder: "content"
+    files:
+      - file: "content/contact.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Description", name: "description", widget: "String"}
+          - { label: "Body", name: "body", widge: "markdown"}
 
 
 
