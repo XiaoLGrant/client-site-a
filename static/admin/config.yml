@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# <<<<<<< HEAD
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
