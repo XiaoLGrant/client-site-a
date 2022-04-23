@@ -1,11 +1,9 @@
-<<<<<<< HEAD
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
 
-media_folder: "static/images/uploads"
-media_library:
-  name: uploads
+media_folder: "themes/hugo-html5up-alpha-main/static/images"
+
 
 collections:
   - name: "homepage"
@@ -14,8 +12,9 @@ collections:
     files:
       - file: "data/homepage.yml"
         name: "homepage"
-        lable: "Home"
-        {label: "Title", name: "title", widge: "string"}
+        label: "Home"
+        fields:
+          - {label: "Title", name: "title", widge: "string"}
   - name: "about"
     label: "About"
     folder: "content"
