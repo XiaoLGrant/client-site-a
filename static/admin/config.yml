@@ -1,0 +1,33 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+media_folder: "static/images/uploads"
+media_library:
+  name: uploads
+
+collections:
+  - name: "homepage"
+    label: "Home"
+    folder: "data/homepage.yml"
+  - name: "about"
+    label: "About"
+    file: "content/about.md"
+    fields:
+      - { label: "Title", name: "title", widget: "string"}
+      - { label: "Description", name: "description", widget: "String"}
+      - { label: "Body", name: "body", widge: "markdown"}
+  - name: "services"
+    label: "Services"
+    file: "content/services.md"
+    fields:
+      - { label: "Title", name: "title", widget: "string"}
+      - { label: "Description", name: "description", widget: "String"}
+      - { label: "Body", name: "body", widge: "markdown"}
+  - name: "contact"
+    label: "Contact"
+    file: "content/contact.md"
+    fields:
+      - { label: "Title", name: "title", widget: "string"}
+      - { label: "Description", name: "description", widget: "String"}
+      - { label: "Body", name: "body", widge: "markdown"}
