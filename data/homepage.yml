@@ -2,7 +2,7 @@
 banner:
   enable: true
   image: #default is 'images/banner.jpg'
-  title: "Lauren Leshley"
+  title: "this person"
   content: "will edit you out of existance" # Change this if you want something other then the site description
   buttons:
     - title: "My Services"
