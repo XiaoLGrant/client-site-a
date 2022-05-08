@@ -1,6 +1,6 @@
 ---
 title: Contact Me
-size: large
+size: medium
 ---
 <!-- Coming soon! -->
 
