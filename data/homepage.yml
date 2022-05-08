@@ -1,8 +1,8 @@
 banner:
   enable: true
-  image: images/banner.jpg #default is 'images/banner.jpg'
-  title: "this person"
-  content: "will edit you out of existance" # Change this if you want something other then the site description
+  image: /themes/hugo-html5up-alpha-main/static/images/banner1a.jpg
+  title: this person
+  content: will edit you out of existance
   buttons:
     - title: My Services
       link: /services/
@@ -53,3 +53,6 @@ cta:
   enable: true
   header: Need an editor?
   content: Connect with me.
+section:
+  heading: test
+  text: test
