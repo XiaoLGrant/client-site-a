@@ -99,7 +99,11 @@
                 <section id="cta">
                     <h2>{{ .header }}</h2>
                     <p>{{ .content }}</p>
-                    <input type="submit" value="Contact Me" class="" />
+                    <ul class="actions special">
+                        {{ range .buttons }}
+                            <li><a href="{{ .link }}" class="button {{ .class }}">{{ .title }}</a></li>
+                        {{ end }}
+                    </ul>
                 </section>
             {{ end }}
             {{ end }}

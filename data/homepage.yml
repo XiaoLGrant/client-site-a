@@ -53,6 +53,6 @@ cta:
   enable: true
   header: Need an editor?
   content: Connect with me.
-section:
-  heading: test
-  text: test
+  buttons:
+    - title: Contact Me
+      link: /contact/
