@@ -1,5 +1,5 @@
 ---
-title: About Me
+title: Testing
 profile image: <img src="/images/profileImg2.jpg" id="profileImg">
 ---
 
