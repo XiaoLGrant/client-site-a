@@ -1,9 +1,10 @@
 ---
 Title: About Me
 title: About Me
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-  eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua.
+image: /images/profileImg2.jpg
 ---
+
 <img src="/images/profileImg2.jpg" id="profileImg">
 <!-- ![Picture of Lauren.](/images/profileImg.jpg "Lauren") -->
 
