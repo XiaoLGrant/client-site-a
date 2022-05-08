@@ -6,7 +6,7 @@ top image: /themes/hugo-html5up-alpha-main/static/images/pic01.jpg
 <div class="profileImageContainer clear clearfix">
 <img src="/images/profileImg2.jpg" id="profileImg">
 </div>
-<!-- !\\\[Picture of Lauren.](/images/profileImg.jpg "Lauren") -->
+<!-- !\\\\[Picture of Lauren.](/images/profileImg.jpg "Lauren") -->
 
 ### This is a subheading
 
@@ -15,4 +15,4 @@ Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibu
 * list item 1
 * list item 2
 
-Connect with me on \[LinkedIn]([https://www.linkedin.com/in/novelthinker/](<https://www.linkedin.com/in/novelthinker/).<https://www.linkedin.com/in/novelthinker/>)).
+Connect with me on [LinkedIn](https://www.linkedin.com/in/novelthinker/).
