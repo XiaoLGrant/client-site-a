@@ -1,7 +1,6 @@
 ---
-Title: "Services"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-image: 'images/pic01.jpg'
+title: "Services"
+top image: 'images/pic01.jpg'
 ---
 
 ### Developmental Editing

@@ -1,11 +1,10 @@
 ---
 title: Testing
-profile image: <img src="/images/profileImg2.jpg" id="profileImg">
+top image: 'images/pic01.jpg'
 ---
 
 <!-- <img src="/images/profileImg2.jpg" id="profileImg"> -->
 <!-- ![Picture of Lauren.](/images/profileImg.jpg "Lauren") -->
-
 
 ### This is a subheading
 

@@ -13,6 +13,20 @@ collections:
         label: "Home Page"
         name: "home"
         fields:
+          - { label: "Banner",
+              name: "banner",
+              widget: "object",
+              fields: 
+                - { label: "Title", name: "title", widget: "string" }
+                - { label: "Content", name: "content", widget: "string" }
+                - { label: "Banner Image", name: "image", widget: "image" }
+                - { label: "Buttons", 
+                    name: buttons, 
+                    fields:
+                      - { label: "title", name: "title", widget: "string" }
+                      - { label: "link", name: "link", widget: "string"}
+                      - { label: "title", name: "title", widget: "string" }
+                      - { label: "link", name: "link", widget: "string"} } }
           - { label: "Title", name: "title", widget: "string" }
           - {
               label: "Section",
@@ -22,29 +36,32 @@ collections:
                 [
                   { label: "Heading", name: "heading", widget: string },
                   { label: "Text", name: "text", widget: "text" },
-                ],
-            }
+                ], }
       - file: "content/about.md"
         label: "About"
         name: "about"
         fields:
-          - { label: "Title", name: "title", widget: "string"}
-          - { label: "Profile Image", name: 'image', widget: "image"}
-          - { label: "Body", name: "body", widget: "markdown"}
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Top Image", name: 'top image', widget: "image" }
+          - { label: "Body", name: "body", widget: "markdown" }
       - file: "content/services.md"
         label: "Services"
         name: "services"
         fields:
-          - { label: "Title", name: "title", widget: "string"}
-          - { label: "Description", name: "description", widget: "String"}
-          - { label: "Body", name: "body", widget: "markdown"}
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Top Image", name: "top image", widget: "image" }
+          - { label: "Body", name: "body", widget: "markdown" }
       - file: "content/contact.md"
         label: "Contact"
         name: "contact"
         fields:
-          - { label: "Title", name: "title", widget: "string"}
-          - { label: "Description", name: "description", widget: "String"}
-          - { label: "Body", name: "body", widget: "markdown"}
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Form Size",
+              name: "size",
+              widget: "select",
+              options: ["small", "medium", "large"],
+              default: "medium" }
+          - { label: "Body", name: "body", widget: "markdown" }
 
   # - name: "homepage"
   #   label: "Home"
