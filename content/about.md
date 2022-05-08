@@ -1,5 +1,5 @@
 ---
-title: test
+title: About Me
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
   eiusmod tempor incididunt ut labore et dolore magna aliqua.
 profile image: /themes/hugo-html5up-alpha-main/static/images/banner1a.jpg
