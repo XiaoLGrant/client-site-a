@@ -29,7 +29,8 @@ collections:
         name: "about"
         fields:
           - { label: "Title", name: "title", widget: "string"}
-          - { label: "Description", name: "description", widget: "String"}
+          - { label: "Description", name: "description", widget: "string"}
+          - { label: "Profile Image"}, name: 'profile image', widge: "image"
           - { label: "Body", name: "body", widget: "markdown"}
       - file: "content/services.md"
         label: "Services"
