@@ -30,7 +30,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string"}
           - { label: "Description", name: "description", widget: "string"}
-          - { label: "Profile Image", name: 'profile image', widge: "image"}
+          - { label: "Profile Image", name: 'profile image', widget: "image"}
           - { label: "Body", name: "body", widget: "markdown"}
       - file: "content/services.md"
         label: "Services"
