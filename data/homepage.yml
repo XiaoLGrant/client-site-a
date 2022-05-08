@@ -1,6 +1,6 @@
 banner:
   enable: true
-  image: /themes/hugo-html5up-alpha-main/static/images/banner.jpg
+  image: /images/banner.jpg
   title: this person
   content: will edit you out of existance
   buttons:
