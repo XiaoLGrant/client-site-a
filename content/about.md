@@ -1,6 +1,7 @@
 ---
-title: Testing
+title: About
 profile image: <img src="/images/profileImg2.jpg" id="profileImg">
+image: /themes/hugo-html5up-alpha-main/static/images/profileImg2.jpg
 ---
 
 <!-- <img src="/images/profileImg2.jpg" id="profileImg"> -->
