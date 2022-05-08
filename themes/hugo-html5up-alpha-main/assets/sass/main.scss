@@ -416,9 +416,6 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 		}
 	}
 
-	footer {
-	}
-
 /* Form */
 
 	form {
@@ -496,7 +493,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 	}
 
 	input[type="checkbox"],
-	input[type="radio"], {
+	input[type="radio"], select {
 		@include vendor('appearance', 'none');
 		display: block;
 		float: left;
@@ -1742,7 +1739,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 		/* Banner */
 
 			#banner {
-				//padding: 6em 2em;
+				padding: 6em 2em;
 			}
 
 		/* Nav */
