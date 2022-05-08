@@ -37,14 +37,14 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string"}
           - { label: "Description", name: "description", widget: "String"}
-          - { label: "Body", name: "body", widget: "text"}
+          - { label: "Body", name: "body", widget: "markdown"}
       - file: "content/contact.md"
         label: "Contact"
         name: "contact"
         fields:
           - { label: "Title", name: "title", widget: "string"}
           - { label: "Description", name: "description", widget: "String"}
-          - { label: "Body", name: "body", widget: "text"}
+          - { label: "Body", name: "body", widget: "markdown"}
 
   # - name: "homepage"
   #   label: "Home"

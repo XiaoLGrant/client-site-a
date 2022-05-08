@@ -25,7 +25,7 @@ link = "https://twitter.com/"
 [[params.share]]
 title = "linkedin"
 icon = "fa-linkedin"
-link = "https://www.linkedin.com"
+link = "https://www.linkedin.com/in/novelthinker/"
 
 
 ### For Pages the .RelPermalink must match the menu .URL
@@ -46,3 +46,9 @@ link = "https://www.linkedin.com"
     name = "Contact"
     url = "/contact/"
     weight = 30
+
+### Opens links in a new tab. (not working)
+[markup]
+  defaultMarkdownHandler = 'blackFriday'
+  [markup.blackFriday]
+    hrefTargetBlank = true

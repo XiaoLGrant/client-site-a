@@ -280,6 +280,13 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 		text-align: right;
 	}
 
+	#profileImg {
+		border-radius: 50%;
+		width: 50%;
+		float: right;
+		margin: 3%;
+	}
+
 /* Row */
 
 	.row {
@@ -1602,6 +1609,12 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
+		
+		/* Profile Image */
+			#profileImg {
+				border-radius: 50%;
+				width: 50%;
+			}
 
 		/* Header */
 
@@ -1631,6 +1644,12 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 
 			body, input, select, textarea {
 				font-size: 11pt;
+			}
+
+		/* Profile Image */
+			#profileImg {
+				border-radius: 50%;
+				width: 50%;
 			}
 
 	}
@@ -1669,6 +1688,12 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 				&.major {
 					padding: 0 4em;
 				}
+			}
+
+		/* Profile Image */
+			#profileImg {
+				border-radius: 50%;
+				width: 50%;
 			}
 
 		/* Box */
@@ -1956,6 +1981,12 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 				}
 			}
 
+		/* Profile Image */
+			#profileImg {
+				border-radius: 50%;
+				width: 50%;
+			}
+
 		/* Footer */
 
 			#footer {
@@ -1986,6 +2017,12 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 
 			body, input, select, textarea {
 				font-size: 11pt;
+			}
+
+		/* Profile Image */
+			#profileImg {
+				border-radius: 50%;
+				width: 50%;
 			}
 
 		/* Section/Article */

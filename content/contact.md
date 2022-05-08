@@ -6,7 +6,6 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei
 ## Default is 'auto'
 size: "medium"
 ---
-Coming soon!
+<!-- Coming soon! -->
 
-<!-- {{< form-contact >}}
- -->
+{{< form-contact >}}
