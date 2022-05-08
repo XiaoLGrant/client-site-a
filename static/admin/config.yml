@@ -13,20 +13,20 @@ collections:
         label: "Home Page"
         name: "home"
         fields:
-          - { label: "Banner",
-              name: "banner",
-              widget: "object",
-              fields: 
-                - { label: "Title", name: "title", widget: "string" }
-                - { label: "Content", name: "content", widget: "string" }
-                - { label: "Banner Image", name: "image", widget: "image" }
-                - { label: "Buttons", 
-                    name: buttons, 
-                    fields:
-                      - { label: "title", name: "title", widget: "string" }
-                      - { label: "link", name: "link", widget: "string"}
-                      - { label: "title", name: "title", widget: "string" }
-                      - { label: "link", name: "link", widget: "string"} } }
+          - label: "Banner"
+            name: "banner"
+            widget: "object"
+            fields: 
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Content", name: "content", widget: "string" }
+              - { label: "Banner Image", name: "image", widget: "image" }
+              - label: "Buttons", 
+                  name: buttons, 
+                  fields:
+                    - { label: "title", name: "title", widget: "string" }
+                    - { label: "link", name: "link", widget: "string"}
+                    - { label: "title", name: "title", widget: "string" }
+                    - { label: "link", name: "link", widget: "string"}
           - { label: "Title", name: "title", widget: "string" }
           - {
               label: "Section",
