@@ -1,8 +1,8 @@
 ---
 Title: About Me
 title: About Me
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua.
-image: /images/profileImg2.jpg
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+profile image: /themes/hugo-html5up-alpha-main/static/images/banner1a.jpg
 ---
 
 <img src="/images/profileImg2.jpg" id="profileImg">
