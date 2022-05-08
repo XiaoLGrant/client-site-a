@@ -1,8 +1,8 @@
 banner:
   enable: true
-  image: /themes/hugo-html5up-alpha-main/static/images/banner1a.jpg
-  title: this person
-  content: will edit you out of existance
+  image: /themes/hugo-html5up-alpha-main/static/images/banner.jpg
+  title: bleb blebsen
+  content: editing king
   buttons:
     - title: My Services
       link: /services/
