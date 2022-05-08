@@ -20,15 +20,28 @@ collections:
               - { label: "Banner Title", name: "title", widget: "string" }
               - { label: "Banner Content", name: "content", widget: "string" }
               - { label: "Banner Image", name: "image", widget: "image" }
-          # - { label: "Title", name: "title", widget: "string" }
-          - label: "Section"
-            name: "section"
+          - label: "Highlight"
+            name: "highlight"
             widget: "object"
             fields:
-              [
-                { label: "Heading", name: "heading", widget: string },
-                { label: "Text", name: "text", widget: "text" },
-              ]
+              - { label: "Title", name: "header", widget: "string" }
+              - { label: "Content", name: "content", widget: "markdown"}
+              - { label: "Image", name: "image", widget: "image" }
+          - label: "Call To Action"
+            name: "cta"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "header", widget: "string" }
+              - { label: "Content", name: "content", widget: "markdown" }
+          # - { label: "Title", name: "title", widget: "string" }
+          # - label: "Section"
+          #   name: "section"
+          #   widget: "object"
+          #   fields:
+          #     [
+          #       { label: "Heading", name: "heading", widget: string },
+          #       { label: "Text", name: "text", widget: "text" },
+          #     ]
       - file: "content/about.md"
         label: "About"
         name: "about"

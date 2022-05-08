@@ -1,6 +1,6 @@
 ---
 title: "Services"
-top image: 'images/pic01.jpg'
+image: images/pic01.jpg
 ---
 
 ### Developmental Editing

@@ -280,6 +280,10 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 		text-align: right;
 	}
 
+	.profileContent {
+		display: block;
+	}
+
 	#profileImg {
 		border-radius: 50%;
 		width: 50%;
@@ -1612,8 +1616,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 		
 		/* Profile Image */
 			#profileImg {
-				border-radius: 50%;
-				width: 50%;
+				width: 40%;
 			}
 
 		/* Header */
@@ -1648,8 +1651,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 
 		/* Profile Image */
 			#profileImg {
-				border-radius: 50%;
-				width: 50%;
+				width: 40%;
 			}
 
 	}
@@ -1692,8 +1694,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 
 		/* Profile Image */
 			#profileImg {
-				border-radius: 50%;
-				width: 50%;
+				width: 40%;
 			}
 
 		/* Box */
@@ -1982,10 +1983,30 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 			}
 
 		/* Profile Image */
-			#profileImg {
-				border-radius: 50%;
-				width: 50%;
+
+			.profileImageContainer {
+				text-align: center;
+				display: block;
+				width: 100%;
 			}
+
+			#profileImg {
+				width: 40%;
+				float: none;
+			}
+
+			.clearfix:after {
+				content: ".";
+				display: block;
+				clear: both;
+				visibility: hidden;
+				line-height: 0;
+				height: 0;
+		   }
+		   
+		   .clear {
+			   clear: both;
+		   }
 
 		/* Footer */
 
@@ -2020,9 +2041,28 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 			}
 
 		/* Profile Image */
+			.profileImageContainer {
+				text-align: center;
+				display: block;
+				width: 100%;
+			}
+
 			#profileImg {
-				border-radius: 50%;
-				width: 50%;
+				width: 60%;
+				float: none;
+			}
+
+			.clearfix:after {
+				content: ".";
+				display: block;
+				clear: both;
+				visibility: hidden;
+				line-height: 0;
+				height: 0;
+			}
+			
+			.clear {
+				clear: both;
 			}
 
 		/* Section/Article */
