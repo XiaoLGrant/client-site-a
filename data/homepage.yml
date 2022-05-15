@@ -14,7 +14,7 @@ highlight:
   header: Lorem ipsum
   content: Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus
     nunc ornare<br /> adipiscing nunc adipiscing. Condimentum turpis massa.
-  image: images/pic01.jpg
+  image: /themes/hugo-html5up-alpha-main/static/images/pic01.jpg
 features:
   enable: false
   rows:
