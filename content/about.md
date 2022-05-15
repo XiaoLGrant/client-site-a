@@ -1,8 +1,8 @@
 ---
 title: About
-image: images/pic01.jpg
-top image: /themes/hugo-html5up-alpha-main/static/images/pic01.jpg
+image: images/pic07.jpg
 ---
+<!-- /themes/hugo-html5up-alpha-main/static/images/pic06crop3.jpg -->
 <div class="profileImageContainer clear clearfix">
 <img src="/images/profileImg2.jpg" id="profileImg">
 </div>

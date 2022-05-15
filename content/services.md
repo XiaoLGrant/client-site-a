@@ -1,7 +1,6 @@
 ---
 title: Services
-image: images/pic01.jpg
-top image: /themes/hugo-html5up-alpha-main/static/images/pic04.jpg
+image: images/pic10.jpg
 ---
 ### Developmental Editing - $val
 
