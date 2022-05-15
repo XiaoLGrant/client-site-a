@@ -17,7 +17,6 @@
 $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg") }}";
 
 // Breakpoints.
-$breakpoints: null;
 	@include breakpoints((
 		wide:      ( 1281px,  1680px ),
 		normal:    ( 981px,   1280px ),
