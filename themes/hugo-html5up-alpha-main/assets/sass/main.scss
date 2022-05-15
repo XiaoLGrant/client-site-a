@@ -1654,7 +1654,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 
 /* Narrower */
 
-	#navPanel/*, #navButton*/ {
+	#navPanel, #navButton {
 		display: none;
 	}
 
