@@ -68,6 +68,14 @@ collections:
               options: ["small", "medium", "large"],
               default: "medium" }
           - { label: "Body", name: "body", widget: "markdown" }
+      - file: "content/testLayout.md"
+        label: "testLayout"
+        name: "testLayout"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Top Image", name: 'image', widget: "image" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Profile Image", name: 'profile image', widget: "image" }
 
   # - name: "homepage"
   #   label: "Home"
