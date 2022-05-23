@@ -3,8 +3,7 @@ title: Test About
 image: images/pic07.jpg
 type: customLayout
 layout: testTemplate
-profile image: images/profileImg2.jpg
-
+profile image: /images/uploads/dino.jpg
 ---
 
 
