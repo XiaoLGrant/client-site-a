@@ -1,6 +1,6 @@
 ---
 title: About
-image: images/pic07.jpg
+image: /images/uploads/yellowForest.jpg
 ---
 <!-- /themes/hugo-html5up-alpha-main/static/images/pic06crop3.jpg -->
 <div class="profileImageContainer clear clearfix">
