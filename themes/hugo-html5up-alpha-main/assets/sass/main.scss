@@ -365,6 +365,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 	section, article {
 		&.special {
 			text-align: center;
+			overflow: hidden;
 		}
 	}
 
@@ -587,7 +588,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 	$box-padding: 3em;
 
 	.box {
-		background: #fff;
+		background: #F5F1F1;
 		border-radius: _size(border-radius);
 		box-shadow: 0 2px 0 0 _palette(border);
 		margin: 0 0 _size(element-margin) 0;
@@ -1389,7 +1390,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 
 	#banner {
 		background-attachment:	scroll,							fixed;
-		background-color:		#666;
+		background-color:		#124559;
 		background-image:		url($bannerURL);
 		background-position:	5% center,						center center;
 		background-repeat:		no-repeat,							no-repeat;
@@ -1429,16 +1430,16 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 			min-width: 12em;
 
 			&:hover {
-				background-color: rgba(255,255,255,0.1);
+				background-color: rgba(189,202,145,0.1);
 			}
 
 			&:active {
-				background-color: rgba(255,255,255,0.2);
+				background-color: rgba(189,202,145,0.2);
 			}
 
 			&.primary {
-				background: #fff;
-				color: #666 !important;
+				background: #F5F1F1;
+				color: #021D27 !important;
 			}
 		}
 	}
@@ -1477,7 +1478,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 /* Footer */
 
 	#footer {
-		background: #f0f0f0;
+		background: #d7d9d6;
 		padding: 4em 0 6em 0;
 		text-align: center;
 
@@ -1530,6 +1531,11 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 
 		h2, h3, h4, h5, h6 {
 			color: inherit;
+			font-size: 3em;
+		}
+
+		p {
+			font-size: 1.5em;
 		}
 
 		form {
@@ -1543,7 +1549,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 		input[type="button"],
 		.button {
 			box-shadow: none;
-			background: #fff;
+			background: #F5F1F1;
 			color: _palette(accent2, bg);
 		}
 
@@ -1557,28 +1563,28 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 			border: 0;
 
 			&:focus {
-				box-shadow: inset 0 0 0 2px #fff;
+				box-shadow: inset 0 0 0 2px #F5F1F1; //Eff6E0
 			}
 		}
 
 		::-webkit-input-placeholder {
-			color: rgba(255,255,255,0.75) !important;
+			color: rgba(245,241,241,0.75) !important;
 		}
 
 		:-moz-placeholder {
-			color: rgba(255,255,255,0.75) !important;
+			color: rgba(245,241,241,0.75) !important;
 		}
 
 		::-moz-placeholder {
-			color: rgba(255,255,255,0.75) !important;
+			color: rgba(245,241,241,0.75) !important;
 		}
 
 		:-ms-input-placeholder {
-			color: rgba(255,255,255,0.75) !important;
+			color: rgba(245,241,241,0.75) !important;
 		}
 
 		.formerize-placeholder {
-			color: rgba(255,255,255,0.75) !important;
+			color: rgba(245,241,241,0.75) !important;
 		}
 	}
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         {{- partial "head.html" . -}}
         {{ template "_internal/opengraph.html" . }}
@@ -46,7 +46,7 @@
                 {{ with .Site.Data.homepage.features }}
                     <section class="box special features">
                         {{ range .rows }}
-                        <div class="features-row">
+                        <div class="features">
                             {{ range .items }}
                             <section>
                                 <span class="icon solid major {{ .icon }} {{ .accent }}"></span>

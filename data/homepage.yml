@@ -16,34 +16,34 @@ highlight:
     nunc ornare<br /> adipiscing nunc adipiscing. Condimentum turpis massa.
   image: /themes/hugo-html5up-alpha-main/static/images/pic01.jpg
 features:
-  enable: false
+  enable: true
   rows:
     - items:
-        - title: Magna etiam
-          icon: fa-bolt
+        - title: Testimonial
+          icon: fa-solid fa-quote-left
           accent: accent2
           content: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
             lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna
             aliquam veroeros.
-        - title: Ipsum dolor
-          icon: fa-chart-area
-          accent: accent3
-          content: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
-            lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna
-            aliquam veroeros.
-    - items:
-        - title: Sed feugiat
-          icon: fa-cloud
-          accent: accent4
-          content: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
-            lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna
-            aliquam veroeros.
-        - title: Enim phasellus
-          icon: fa-lock
-          accent: accent5
-          content: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
-            lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna
-            aliquam veroeros.
+        # - title: Ipsum dolor
+        #   icon: fa-chart-area
+        #   accent: accent3
+        #   content: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
+        #     lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna
+        #     aliquam veroeros.
+    # - items:
+    #     - title: Sed feugiat
+    #       icon: fa-cloud
+    #       accent: accent4
+    #       content: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
+    #         lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna
+    #         aliquam veroeros.
+    #     - title: Enim phasellus
+    #       icon: fa-lock
+    #       accent: accent5
+    #       content: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
+    #         lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna
+    #         aliquam veroeros.
 blog:
   enable: false
   header: Recent Posts
@@ -51,7 +51,7 @@ blog:
   postCount: 2
 cta:
   enable: true
-  header: Need an editor?
+  header: CTA
   content: Connect with me.
   buttons:
     - title: Contact Me
