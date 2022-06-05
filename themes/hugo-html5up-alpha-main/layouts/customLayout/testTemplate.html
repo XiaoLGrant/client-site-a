@@ -10,7 +10,9 @@
     <span class="image featured"><img src="{{ . }}" alt="" /></span>
     {{ end }}
     <div class="profileImageContainer clear clearfix">
-      <img src="{{ . }}" alt="">
+      {{ with partial "profileImage" . }}
+      <img id="profileImg" src="{{ . }}" alt="">
+      {{end}}
     </div>
     {{ .Content }}
     {{ partial "tags" . }}

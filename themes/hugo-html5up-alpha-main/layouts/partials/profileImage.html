@@ -1,0 +1,7 @@
+{{ $profileURL := "" }}
+{{ if .Params.profileImage }}
+  {{ $profileURL = (.Params.profileImage | relURL) }}
+{{ else if .Resources.GetMatch "profile.jpg" }}
+  {{ $profileURL = (.Resources.GetMatch "profile.jpg").Permalink }}
+{{ end }}
+{{ return $profileURL }}
