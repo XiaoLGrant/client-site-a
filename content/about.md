@@ -4,6 +4,7 @@ image: /images/uploads/yellowForest.jpg
 type: customLayout
 layout: aboutTemplate
 profileImage: images/profileImg2.jpg
+ProfileImage: /images/uploads/dino.jpg
 ---
 
 ### This is a subheading
