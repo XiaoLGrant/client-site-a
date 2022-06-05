@@ -4,7 +4,7 @@ image: images/pic07.jpg
 type: customLayout
 layout: testTemplate
 profileImage: images/profileImg2.jpg
-
+ProfileImage: /images/uploads/dino.jpg
 ---
 
 
