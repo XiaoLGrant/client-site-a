@@ -1,12 +1,10 @@
 ---
 title: About
 image: /images/uploads/yellowForest.jpg
+type: customLayout
+layout: aboutTemplate
+profileImage: images/profileImg2.jpg
 ---
-<!-- /themes/hugo-html5up-alpha-main/static/images/pic06crop3.jpg -->
-<div class="profileImageContainer clear clearfix">
-<img src="/images/profileImg2.jpg" id="profileImg">
-</div>
-<!-- !\\\\[Picture of Lauren.](/images/profileImg.jpg "Lauren") -->
 
 ### This is a subheading
 

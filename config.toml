@@ -41,11 +41,6 @@ link = "https://www.linkedin.com/in/novelthinker/"
     name = "Contact"
     url = "/contact/"
     weight = 30
-  [[menu.main]]
-    identifier = "testLayout"
-    name = "testLayout"
-    url = "/testLayout/"
-    weight = 40
 
 ### Opens links in a new tab. (not working)
 [markup]
