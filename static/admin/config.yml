@@ -48,14 +48,15 @@ collections:
         name: "about"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Top Image", name: 'image', widget: "image" }
+          - { label: "Heading Image", name: 'image', widget: "image" }
+          - { label: "Profile Image", name: 'profileImage', widget: "image" }
           - { label: "Body", name: "body", widget: "markdown" }
       - file: "content/services.md"
         label: "Services"
         name: "services"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Top Image", name: "image", widget: "image" }
+          - { label: "Heading Image", name: "image", widget: "image" }
           - { label: "Body", name: "body", widget: "markdown" }
       - file: "content/contact.md"
         label: "Contact"
@@ -68,14 +69,14 @@ collections:
               options: ["small", "medium", "large"],
               default: "medium" }
           - { label: "Body", name: "body", widget: "markdown" }
-      - file: "content/testLayout.md"
-        label: "testLayout"
-        name: "testLayout"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Top Image", name: 'image', widget: "image" }
-          - { label: "Body", name: "body", widget: "markdown" }
-          - { label: "Profile Image", name: 'ProfileImage', widget: "image" }
+      # - file: "content/testLayout.md"
+      #   label: "testLayout"
+      #   name: "testLayout"
+      #   fields:
+      #     - { label: "Title", name: "title", widget: "string" }
+      #     - { label: "Top Image", name: 'image', widget: "image" }
+      #     - { label: "Body", name: "body", widget: "markdown" }
+      #     - { label: "Profile Image", name: 'ProfileImage', widget: "image" }
 
   # - name: "homepage"
   #   label: "Home"
