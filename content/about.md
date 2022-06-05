@@ -1,9 +1,9 @@
 ---
 title: About
-image: /images/uploads/yellowForest.jpg
+image: images/uploads/yellowForest.jpg
 type: customLayout
 layout: aboutTemplate
-profileImage: images/profileImg2.jpg
+profileImage: images/uploads/profileImg2.jpg
 ---
 
 ### This is a subheading
