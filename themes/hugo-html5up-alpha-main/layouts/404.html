@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {{- partial "head.html" . -}}
+        {{ template "_internal/opengraph.html" . }}
+    </head>
+    <body class="landing is-preload">
+        <div id="page-wrapper">
+            {{- partial "header.html" . -}}
+
+            <!-- Banner -->
+            <section id="banner">
+            {{ if .Site.Data.homepage.banner.enable }}
+            {{ with .Site.Data.homepage.banner }}
+                <h2>Error</h2>
+                <p>The page you're looking for does not exist.</p>
+            {{ end }}
+            {{ end }}
+            </section>
+
+            {{- partial "footer.html" . -}}
+        </div>
+        {{- partial "scripts.html" . -}}
+    </body>
+</html>
