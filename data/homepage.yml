@@ -25,9 +25,25 @@ features:
           content: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
             lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna
             aliquam veroeros.
-  accent: "#d9a6a6"
-  title: dog dog dog go
-  content: birds 4 prez
+        # - title: Ipsum dolor
+        #   icon: fa-chart-area
+        #   accent: accent3
+        #   content: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
+        #     lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna
+        #     aliquam veroeros.
+    # - items:
+    #     - title: Sed feugiat
+    #       icon: fa-cloud
+    #       accent: accent4
+    #       content: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
+    #         lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna
+    #         aliquam veroeros.
+    #     - title: Enim phasellus
+    #       icon: fa-lock
+    #       accent: accent5
+    #       content: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
+    #         lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna
+    #         aliquam veroeros.
 blog:
   enable: false
   header: Recent Posts
@@ -40,5 +56,3 @@ cta:
   buttons:
     - title: Contact Me
       link: /contact/
-  title: call your local dog
-  link: /about/
