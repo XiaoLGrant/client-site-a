@@ -34,15 +34,20 @@ collections:
             fields:
               - { label: "Title", name: "header", widget: "string" }
               - { label: "Content", name: "content", widget: "markdown" }
-              - { label: "Button Text", name: "title", widget: "string"}
-              - { label: "Button Link", name: "link", widget: "string"}
           - label: "Testimonial"
             name: "features"
             widget: "object"
             fields: 
-              - { label: "Icon Color", name: "accent", widget: "color"}
-              - { label: "Title", name: "title", widget: "string"}
-              - { label: "Content", name: "content", widget: "markdown"}
+              - label: "Rows"
+                name: "rows"
+                fields:
+                  - label: "Items"
+                  - name: "items"
+                  - fields:
+                    - { label: "Icon Color", name: "accent", widget: "color"}
+                    - { label: "Enable", name: "enable", widget: "boolean"}
+                    - { label: "Title", name: "title", widget: "string"}
+                    - { label: "Content", name: "content", widget: "markdown"}
       - file: "content/about.md"
         label: "About"
         name: "about"
