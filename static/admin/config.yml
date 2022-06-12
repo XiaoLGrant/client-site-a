@@ -39,10 +39,11 @@ collections:
           - label: "Testimonial"
             name: "features"
             widget: "object"
-            fields:
-              - { label: "Title", name: "title", widget: "string"}
-              - { label: "Content", name: "content", widget: "markdown"}
-              - { label: "Icon Color", name: "accent", widget: "color"}
+            fields: [
+               { label: "Title", name: "title", widget: "string"}
+               { label: "Content", name: "content", widget: "markdown"}
+               { label: "Icon Color", name: "accent", widget: "color"}
+            ]
           # - { label: "Title", name: "title", widget: "string" }
           # - label: "Section"
           #   name: "section"
