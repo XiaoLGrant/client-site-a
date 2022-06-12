@@ -34,6 +34,15 @@ collections:
             fields:
               - { label: "Title", name: "header", widget: "string" }
               - { label: "Content", name: "content", widget: "markdown" }
+              - { label: "Button Text", name: "title", widget: "string"}
+              - { label: "Button Link", name: "link", widget: "string"}
+          - label: "Testimonial"
+            name: "features"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string"}
+              - { label: "Content", name: "content", widget: "markdown"}
+              - { label: "Icon Color", name: "accent", widget: "color"}
           # - { label: "Title", name: "title", widget: "string" }
           # - label: "Section"
           #   name: "section"
