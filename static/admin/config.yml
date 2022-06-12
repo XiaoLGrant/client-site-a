@@ -40,9 +40,11 @@ collections:
             fields: 
               - label: "Rows"
                 name: "rows"
+                widget: "object"
                 fields:
                   - label: "Items"
                     name: "items"
+                    widget: "object"
                     fields:
                     - { label: "Icon Color", name: "accent", widget: "color"}
                     - { label: "Enable", name: "enable", widget: "boolean"}
