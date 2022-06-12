@@ -42,8 +42,8 @@ collections:
                 name: "rows"
                 fields:
                   - label: "Items"
-                  - name: "items"
-                  - fields:
+                    name: "items"
+                    fields:
                     - { label: "Icon Color", name: "accent", widget: "color"}
                     - { label: "Enable", name: "enable", widget: "boolean"}
                     - { label: "Title", name: "title", widget: "string"}
