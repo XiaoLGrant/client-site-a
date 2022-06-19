@@ -16,38 +16,20 @@ highlight:
     nunc ornare<br /> adipiscing nunc adipiscing. Condimentum turpis massa.
   image: /images/uploads/highlightImg01.jpg
 features:
-  enable: true
+  enable: false
   items:
-      - title: Testimonial
-        icon: fa-solid fa-quote-left
-        accent: accent2
-        content: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
-          lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna
-          aliquam veroeros.
-      # - title: Ipsum dolor
-      #   icon: fa-chart-area
-      #   accent: accent3
-      #   content: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
-      #     lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna
-      #     aliquam veroeros.
-    # - items:
-    #     - title: Sed feugiat
-    #       icon: fa-cloud
-    #       accent: accent4
-    #       content: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
-    #         lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna
-    #         aliquam veroeros.
-    #     - title: Enim phasellus
-    #       icon: fa-lock
-    #       accent: accent5
-    #       content: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
-    #         lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna
-    #         aliquam veroeros.
+    - title: Testimonial
+      icon: fa-solid fa-quote-left
+      accent: accent2
+      content: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
+        lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna
+        aliquam veroeros.
 blog:
   enable: false
   header: Recent Posts
   buttonText: Read More
   postCount: 2
+description: This is the site description for SEO.
 cta:
   enable: true
   header: CTA
