@@ -16,7 +16,7 @@ highlight:
     nunc ornare<br /> adipiscing nunc adipiscing. Condimentum turpis massa.
   image: /images/uploads/highlightImg01.jpg
 features:
-  enable: false
+  enable: true
   items:
     - title: Testimonial
       icon: fa-solid fa-quote-left
