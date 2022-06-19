@@ -20,9 +20,13 @@ features:
   title: Testimonial
   icon: fa-solid fa-quote-left
   accent: accent2
-  content: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
+  content: |
+    ``Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
     lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna
     aliquam veroeros.
+    ``
+  content2: 
+  content3: 
 blog:
   enable: false
   header: Recent Posts
