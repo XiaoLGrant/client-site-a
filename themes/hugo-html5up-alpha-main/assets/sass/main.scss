@@ -14,7 +14,7 @@
 */
 
 // BannerURL
-$bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg") }}";
+$bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner") }}";
 
 // Breakpoints.
 	@include breakpoints((
