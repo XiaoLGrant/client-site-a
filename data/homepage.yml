@@ -22,12 +22,6 @@ features:
   accent: accent2
   review: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.
   name: First Last
-    # - review:
-    #   name:
-    #   enable: false
-    # - review:
-    #   name:
-    #   enable: false
 blog:
   enable: false
   header: Recent Posts

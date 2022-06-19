@@ -50,10 +50,8 @@
                                 <span class="icon solid major {{ .icon }} {{ .accent }}"></span>
                                 <h3>{{ .title }}</h3>
                                 <!--  range $ = .Site.Data.homepage.features.content where "review" contains "true" -->
-                                {{ range .content}}
                                 <p>{{ .review }}</p>
                                 <span>- {{ .name }}</span>
-                                {{ end }}
                             </section>
                         </div>
                     </section>
