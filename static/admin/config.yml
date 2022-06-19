@@ -44,16 +44,10 @@ collections:
             name: "features"
             widget: "object"
             fields: 
-              - label: "Enable"
-                name: "enable"
-                widget: "boolean"
-              - label: "Items"
-                name: "items"
-                widget: "object"
-                fields:
-                  # - { label: "Icon Color", name: "accent", widget: "select", options: ["accent1", "accent2", "accent3", "accent4", "accent5"] }
-                  - { label: "Title", name: "title", widget: "string" }
-                  - { label: "Content", name: "content", widget: "markdown"}
+              - {label: "Enable", name: "enable", widget: "boolean"}
+              - { label: "Icon Color", name: "accent", widget: "select", options: ["accent1", "accent2", "accent3", "accent4", "accent5"] }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Content", name: "content", widget: "markdown"}
       - file: "content/about.md"
         label: "About"
         name: "about"

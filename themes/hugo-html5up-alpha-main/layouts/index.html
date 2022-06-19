@@ -46,13 +46,11 @@
                 {{ with .Site.Data.homepage.features }}
                     <section class="box special features">
                         <div class="features">
-                            {{ range .items }}
                             <section>
                                 <span class="icon solid major {{ .icon }} {{ .accent }}"></span>
                                 <h3>{{ .title }}</h3>
                                 <p>{{ .content }}</p>
                             </section>
-                            {{ end }}
                         </div>
                     </section>
                 {{ end }}
