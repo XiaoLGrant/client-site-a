@@ -1,5 +1,6 @@
 ---
 title: About
+description:
 image: images/uploads/yellowForest.jpg
 type: customLayout
 layout: aboutTemplate

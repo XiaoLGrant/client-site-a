@@ -14,6 +14,7 @@ collections:
         label: "Home Page"
         name: "home"
         fields:
+          - label: "Meta Description", name: "description", widget: "string"
           - label: "Banner"
             name: "banner"
             widget: "object"
@@ -54,6 +55,7 @@ collections:
         name: "about"
         fields:
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "Meta Description", name: "description", widget: "string"}
           - { label: "Header Image", name: 'image', widget: "image" }
           - { label: "Profile Image", name: 'profileImage', widget: "image" }
           - { label: "Body", name: "body", widget: "markdown" }
@@ -62,6 +64,7 @@ collections:
         name: "services"
         fields:
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "Meta Description", name: "description", widget: "string"}
           - { label: "Header Image", name: "image", widget: "image" }
           - { label: "Body", name: "body", widget: "markdown" }
       - file: "content/contact.md"
@@ -69,6 +72,7 @@ collections:
         name: "contact"
         fields:
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "Meta Description", name: "description", widget: "string"}
           - { label: "Form Size",
               name: "size",
               widget: "select",

@@ -1492,6 +1492,10 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 		text-align: center;
 		color: #fff;
 
+		h3 {
+			color:#fff
+		};
+
 		.icons {
 			a {
 				@include vendor('transition', 'opacity #{_duration(transition)} ease-in-out');
@@ -1560,7 +1564,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 		.button {
 			box-shadow: none;
 			background: #F5F1F1;
-			color: _palette(accent2, bg);
+			color: _palette(accent2, fg);
 		}
 
 		input[type="text"],

@@ -1,8 +1,9 @@
 <!-- Footer -->
 <footer id="footer">
+  <h3>Social Media</h3>
     <ul class="icons">
         {{ range .Site.Params.share }}
-            <li><a href="{{ .link }}" class="icon brands {{ .icon }}"><span class="label">{{ .title }}</span></a></li>
+            <li><a href="{{ .link }}" class="icon brands {{ .icon }}" aria-label="{{ .title }}"><span class="label">{{ .title }}</span></a></li>
         {{ end }}
     </ul>
     <ul class="copyright">

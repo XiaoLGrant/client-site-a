@@ -1,6 +1,7 @@
 ---
 title: Services
 image: images/pic10.jpg
+description:
 ---
 ### Developmental Editing - $val
 
