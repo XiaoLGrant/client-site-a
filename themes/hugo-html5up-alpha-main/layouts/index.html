@@ -45,7 +45,6 @@
                 {{ if .Site.Data.homepage.features.enable }}
                 {{ with .Site.Data.homepage.features }}
                     <section class="box special features">
-                        {{ range .rows }}
                         <div class="features">
                             {{ range .items }}
                             <section>
@@ -55,7 +54,6 @@
                             </section>
                             {{ end }}
                         </div>
-                        {{ end }}
                     </section>
                 {{ end }}
                 {{ end }}

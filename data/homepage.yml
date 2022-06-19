@@ -17,20 +17,19 @@ highlight:
   image: /images/uploads/highlightImg01.jpg
 features:
   enable: true
-  rows:
-    - items:
-        - title: Testimonial
-          icon: fa-solid fa-quote-left
-          accent: accent2
-          content: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
-            lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna
-            aliquam veroeros.
-        # - title: Ipsum dolor
-        #   icon: fa-chart-area
-        #   accent: accent3
-        #   content: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
-        #     lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna
-        #     aliquam veroeros.
+  items:
+      - title: Testimonial
+        icon: fa-solid fa-quote-left
+        accent: accent2
+        content: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
+          lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna
+          aliquam veroeros.
+      # - title: Ipsum dolor
+      #   icon: fa-chart-area
+      #   accent: accent3
+      #   content: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
+      #     lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna
+      #     aliquam veroeros.
     # - items:
     #     - title: Sed feugiat
     #       icon: fa-cloud

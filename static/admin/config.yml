@@ -21,6 +21,7 @@ collections:
             name: "banner"
             widget: "object"
             fields: 
+              - { label: "Enable", name: "enable", widget: "boolean"}
               - { label: "Banner Title", name: "title", widget: "string" }
               - { label: "Banner Content", name: "content", widget: "string" }
               - { label: "Banner Image", name: "image", widget: "image" }
@@ -28,6 +29,7 @@ collections:
             name: "highlight"
             widget: "object"
             fields:
+              - { label: "Enable", name: "enable", widget: "boolean"}
               - { label: "Title", name: "header", widget: "string" }
               - { label: "Content", name: "content", widget: "markdown"}
               - { label: "Image", name: "image", widget: "image" }
@@ -35,23 +37,23 @@ collections:
             name: "cta"
             widget: "object"
             fields:
+              - { label: "Enable", name: "enable", widget: "boolean"}
               - { label: "Title", name: "header", widget: "string" }
               - { label: "Content", name: "content", widget: "markdown" }
           - label: "Testimonial"
             name: "features"
             widget: "object"
             fields: 
-              - label: "Rows"
-                name: "rows"
+              - label: "Enable"
+                name: "enable"
+                widget: "boolean"
+              - label: "Items"
+                name: "items"
                 widget: "object"
                 fields:
-                  - label: "Items"
-                    name: "items"
-                    widget: "object"
-                    fields:
-                      - { label: "Icon Color", name: "accent", widget: "color"}
-                      - { label: "Title", name: "title", widget: "string"}
-                      - { label: "Content", name: "content", widget: "markdown"}
+                  - { label: "Icon Color", name: "accent", widget: "list", default: ["accent1", "accent2", "accent3", "accent4", "accent5"]}
+                  - { label: "Title", name: "title", widget: "string"}
+                  - { label: "Content", name: "content", widget: "markdown"}
       - file: "content/about.md"
         label: "About"
         name: "about"
