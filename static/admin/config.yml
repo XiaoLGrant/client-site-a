@@ -47,13 +47,6 @@ collections:
               - label: "Enable"
                 name: "enable"
                 widget: "boolean"
-              - label: "Items"
-                name: "items"
-                widget: "object"
-                fields:
-                  - { label: "Icon Color", name: "accent", widget: "list", default: ["accent1", "accent2", "accent3", "accent4", "accent5"]}
-                  - { label: "Title", name: "title", widget: "string"}
-                  - { label: "Content", name: "content", widget: "markdown"}
       - file: "content/about.md"
         label: "About"
         name: "about"
