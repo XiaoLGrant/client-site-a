@@ -10,9 +10,7 @@
     <!-- the script that builds the page and powers Netlify CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
     <script>
-      import CMS from 'netlify-cms';
-      import styles from '!css-loader!sass-loader!../main.scss';
-      CMS.registerPreviewStyle(styles.toString(), { raw: true});
+      CMS.registerPreviewStyle("/main.css");
     </script>
   </body>
 </html>
