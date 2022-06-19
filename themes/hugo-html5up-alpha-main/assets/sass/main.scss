@@ -43,7 +43,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 		margin: 0;
 		padding: 0;
 		border: 0;
-		font-size: 100%;
+		font-size: 62.5%;
 		font: inherit;
 		vertical-align: baseline;
 	}
@@ -133,7 +133,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 	body, input, select, textarea {
 		color: _palette(fg);
 		font-family: _font(family);
-		font-size: 16pt;
+		font-size: 1em;
 		font-weight: _font(weight);
 		line-height: 1.65em;
 		letter-spacing: -0.015em;
@@ -1197,6 +1197,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 			right: 0.75em;
 			top: 0;
 			vertical-align: middle;
+			font-size: 1.25em;
 
 			> ul {
 				list-style: none;
@@ -1390,7 +1391,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 
 	#banner {
 		background-attachment:	scroll,							fixed;
-		background-color:		#124559;
+		background-color:		#40474F;
 		background-image:		url($bannerURL);
 		background-position:	5% center,						center center;
 		background-repeat:		no-repeat,							no-repeat;
@@ -1430,16 +1431,24 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 			min-width: 12em;
 
 			&:hover {
-				background-color: rgba(189,202,145,0.1);
+				background-color: rgba(189,202,145,0.2);
 			}
 
 			&:active {
-				background-color: rgba(189,202,145,0.2);
+				background-color: rgba(189,202,145,0.4);
 			}
 
 			&.primary {
 				background: #F5F1F1;
-				color: #021D27 !important;
+				color: #2B3B2D !important;
+
+				&:hover {
+					background-color: #D6D8D5;
+				};
+
+				&:active {
+					background-color: rgba(193,196,191,1);
+				}
 			}
 		}
 	}
@@ -1478,9 +1487,10 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 /* Footer */
 
 	#footer {
-		background: #d7d9d6;
+		background: _palette(bg3); //40474F
 		padding: 4em 0 6em 0;
 		text-align: center;
+		color: #fff;
 
 		.icons {
 			a {
@@ -1494,7 +1504,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 		}
 
 		.copyright {
-			color: _palette(fg-light);
+			color: _palette(bg);
 			font-size: 0.9em;
 			line-height: 1em;
 			margin: 2em 0 0 0;
@@ -1524,7 +1534,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 /* CTA */
 
 	#cta {
-		background: _palette(accent2, bg);
+		background: _palette(accent2, bg); //_palette(accent2, bg)
 		color: _palette(accent2, fg);
 		padding: 3.5em 0 4em 0;
 		text-align: center;
@@ -1595,7 +1605,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 1em;
 			}
 
 		/* Banner */
@@ -1613,7 +1623,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 1em;
 			}
 		
 		/* Profile Image */
@@ -1648,7 +1658,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 1em;
 			}
 
 		/* Profile Image */
@@ -1673,7 +1683,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 			}
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 1em;
 			}
 
 			h2, h3, h4, h5, h6 {
@@ -1860,7 +1870,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 1em;
 			}
 
 			h2 {
@@ -2039,7 +2049,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 			}
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 1em;
 			}
 
 		/* Profile Image */
