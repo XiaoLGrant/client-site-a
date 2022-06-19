@@ -23,7 +23,7 @@ features:
       accent: accent2
       content: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat
         lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna
-        aliquam veroeros.
+        aliquam veroeros
 blog:
   enable: false
   header: Recent Posts
