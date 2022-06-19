@@ -20,10 +20,8 @@ features:
   title: Testimonial
   icon: fa-solid fa-quote-left
   accent: accent2
-  content: 
-    - review: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.
-      name: First Last
-      enable: true
+  review: Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.
+  name: First Last
     # - review:
     #   name:
     #   enable: false
