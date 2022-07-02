@@ -1,6 +1,6 @@
 banner:
   enable: true
-  image: /images/uploads/banner.jpg
+  image: /images/uploads/banner-min-1920w.jpg
   title: this person
   content: will edit you out of existance
   buttons:
@@ -14,7 +14,7 @@ highlight:
   header: Lorem ipsum
   content: Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus
     nunc ornare<br /> adipiscing nunc adipiscing. Condimentum turpis massa.
-  image: /images/uploads/highlightImg01.jpg
+  image: /images/uploads/highlight-min-1920w.jpg
 features:
   enable: true
   title: Testimonial

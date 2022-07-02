@@ -2,9 +2,35 @@ backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
 
-media_folder: "static/images/uploads" #"themes/hugo-html5up-alpha-main/static/images"
-public_folder: "/images/uploads"
+media_folder: "images/uploads" # static/images/uploads (initial: "themes/hugo-html5up-alpha-main/static/images") (tried content/uploads)
+public_folder: "uploads"
 
+module:
+  mounts:
+  - source: "static/images/uploads"
+    target: "assets/images"
+
+# markup:
+#   goldmark:
+#     extensions:
+#       definitionList: true
+#       footnote: true
+#       linkify: true
+#       linkifyProtocol: https
+#       strikethrough: true
+#       table: true
+#       taskList: true
+#       typographer: true
+#     parser:
+#       attribute:
+#         block: false
+#         title: true
+#       autoHeadingID: true
+#       autoHeadingIDType: github
+#     renderer:
+#       hardWraps: true
+#       unsafe: true
+#       xhtml: false
 
 collections:
   - name: "pages"
@@ -85,6 +111,10 @@ collections:
               options: ["small", "medium", "large"],
               default: "medium" }
           - { label: "Body", name: "body", widget: "markdown" }
+      - folder: "content/about2"
+        path: about2/index
+        media_folder: "images"
+        public_folder: "images"
       # - file: "content/testLayout.md"
       #   label: "testLayout"
       #   name: "testLayout"

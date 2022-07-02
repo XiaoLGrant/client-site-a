@@ -5,7 +5,7 @@ theme = 'hugo-html5up-alpha-main'
 
 [params]
   description = "Business site for client"
-  images = ["images/pic01.jpg"]
+  images = ["/images/uploads/banner-min-1920w.jpg"]
   author = "Hugo Port: [Nelson/Roberto](https://nelsonroberto.com/)"
   copyright = "© Xiao Grant. All rights reserved."
   design = "Design Modified From: [HTML5 UP](http://html5up.net/)"

@@ -1,7 +1,7 @@
 ---
 title: About
 description: site description
-image: images/uploads/yellowForest-min-1919w.jpg
+image: assets/images/yellowForest-min-1919w.jpg
 type: customLayout
 layout: aboutTemplate
 profileImage: /images/uploads/goose.jpg
